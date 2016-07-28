@@ -173,6 +173,10 @@ typedef void (^CZDismissCompletionCallback)(void);
     tableView.dataSource = self;
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
+    if (self.tableViewBackgroundColor) {
+        tableView.backgroundColor = self.tableViewBackgroundColor;
+    }
+    
     return tableView;
 }
 

@@ -98,6 +98,9 @@
 /** cell title color */
 @property (nonatomic, strong) UIColor *cellTitleColor;
 
+/** tableView background color */
+@property (nonatomic, strong) UIColor *tableViewBackgroundColor;
+
 /** picker header title font */
 @property (nonatomic, strong) UIFont *headerTitleFont;
 
