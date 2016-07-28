@@ -341,6 +341,13 @@ typedef void (^CZDismissCompletionCallback)(void);
         cell.textLabel.textColor = self.cellTitleColor;
     }
     
+    if (self.cellSelectedBackgroundColor) {
+        UIView *selectedView = [[UIView alloc] initWithFrame:cell.frame];
+        
+        selectedView.backgroundColor = self.cellSelectedBackgroundColor;
+        cell.selectedBackgroundView = selectedView;
+    }
+    
     return cell;
 }
 

@@ -98,6 +98,9 @@
 /** cell title color */
 @property (nonatomic, strong) UIColor *cellTitleColor;
 
+/** cell selected background color */
+@property (nonatomic, strong) UIColor *cellSelectedBackgroundColor;
+
 /** tableView background color */
 @property (nonatomic, strong) UIColor *tableViewBackgroundColor;
 
