@@ -333,6 +333,10 @@ typedef void (^CZDismissCompletionCallback)(void);
     
     cell.backgroundColor = self.cellBackgroundColor;
     
+    if (self.cellTitleColor) {
+        cell.textLabel.textColor = self.cellTitleColor;
+    }
+    
     return cell;
 }
 
