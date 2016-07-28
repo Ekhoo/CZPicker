@@ -1,6 +1,6 @@
 {
   "name": "CZPicker",
-  "version": "0.3.7",
+  "version": "0.4.2",
   "summary": "CZPicker is a picker view shown as a popup.",
   "description": "CZPicker is flexible. It is shown as a popup with customizations.",
   "homepage": "https://github.com/chenzeyu/CZPicker",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/chenzeyu/CZPicker.git",
-    "tag": "0.3.7"
+    "tag": "0.4.2"
   },
   "social_media_url": "https://twitter.com/chenzeyu",
   "platforms": {
@@ -18,11 +18,6 @@
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/*",
-  "resource_bundles": {
-    "CZPicker": [
-      "Pod/Assets/*.png"
-    ]
-  },
   "public_header_files": "Pod/Classes/*.h",
   "frameworks": "UIKit"
 }

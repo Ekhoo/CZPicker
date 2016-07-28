@@ -172,6 +172,7 @@ typedef void (^CZDismissCompletionCallback)(void);
     tableView.delegate = self;
     tableView.dataSource = self;
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
     return tableView;
 }
 
@@ -329,6 +330,9 @@ typedef void (^CZDismissCompletionCallback)(void);
     if(self.checkmarkColor){
         cell.tintColor = self.checkmarkColor;
     }
+    
+    cell.backgroundColor = self.cellBackgroundColor;
+    
     return cell;
 }
 
